@@ -1,0 +1,6 @@
+C:\Code\PingSites\PingSites\bin\Debug\PingSites.exe.config
+C:\Code\PingSites\PingSites\obj\Debug\PingSites.csprojResolveAssemblyReference.cache
+C:\Code\PingSites\PingSites\bin\Debug\PingSites.exe
+C:\Code\PingSites\PingSites\bin\Debug\PingSites.pdb
+C:\Code\PingSites\PingSites\obj\Debug\PingSites.exe
+C:\Code\PingSites\PingSites\obj\Debug\PingSites.pdb
