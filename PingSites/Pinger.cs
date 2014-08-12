@@ -25,14 +25,14 @@ namespace PingSites
                 Thread.Sleep(timeOutMs);
             }
         }
-
+        
         public void PingHosts(string[] hosts, int count, int timeOutMs) {
             for (var i = 0; i < count; i++) {
+                Console.WriteLine("{0} - {1}", DateTime.Now.ToLongTimeString(), string.Join(", ", hosts));
                 foreach (var host in hosts) {
                     var p = new Ping();
                     p.PingCompleted += PingCompleted;
-                    Console.WriteLine("{0} - Pinging: {1}", i, host);
-                    p.SendAsync(host, 5000, host);
+                    p.SendAsync(host, 1500, host);
                 }
                 Thread.Sleep(timeOutMs);
                 Console.WriteLine("\n");
